@@ -1,0 +1,9 @@
+error_client: Starting
+slow_client: Starting
+variable_client: Starting
+fast_client: Starting
+fast_client response after 0.25 seconds
+i had an error
+variable_client response after 0.8341058020955449 seconds
+slow_client response after 3 seconds
+Concurrent with error 3.002153100002033 seconds

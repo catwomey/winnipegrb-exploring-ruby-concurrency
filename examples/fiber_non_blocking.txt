@@ -1,0 +1,7 @@
+slow_client: Starting
+fast_client: Starting
+variable_client: Starting
+fast_client response after 0.25 seconds
+variable_client response after 1.3481595507254118 seconds
+slow_client response after 3 seconds
+Fiber non blocking 3.0023223959979077 seconds

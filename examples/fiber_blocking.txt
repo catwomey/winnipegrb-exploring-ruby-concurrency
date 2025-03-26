@@ -1,0 +1,7 @@
+Fiber 1: Starting
+Fiber 2: Starting
+Fiber 3: Starting
+Fiber 2 response after 0.30070340000020224 seconds
+Fiber 3 response after 1.4055994439986534 seconds
+Fiber 1 response after 3.010090071002196 seconds
+Fiber blocking 3.0101850559985905 seconds

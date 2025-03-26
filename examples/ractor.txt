@@ -1,0 +1,9 @@
+ractor.rb:10: warning: Ractor is experimental, and the behavior may change in future versions of Ruby! Also there are many implementation issues.
+Main thread received results: 500312.9867311357, 499808.9860720349
+Yielded ractor1 1000121.9728031706
+Ractor 3 starting
+Ractor 3 finished with sum: 499808.9860720349
+Ractor 2 starting
+Ractor 2 finished with sum: 500312.9867311357
+Ractor 1 starting
+Ractor 3 finished with sum: 1000121.9728031706

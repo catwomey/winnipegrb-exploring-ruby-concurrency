@@ -1,0 +1,20 @@
+{
+  "name": "ruby-concurrency-presentation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx marp presentation.md --engine ./engine.js --watch",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate-diagrams": "for file in diagrams/*.mmd; do npx mmdc -i \"$file\" -o \"${file%.mmd}.svg\"; done"
+  },
+  "author": "chester.twomey@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "@marp-team/marp-cli": "^4.1.1"
+  },
+  "dependencies": {
+    "@mermaid-js/mermaid-cli": "^11.4.2",
+    "markdown-it-include": "^2.0.0"
+  }
+}

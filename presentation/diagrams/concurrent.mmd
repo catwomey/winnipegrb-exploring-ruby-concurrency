@@ -1,0 +1,6 @@
+---
+title: Concurrency
+---
+graph LR
+    CProcess[Process] --> CTask1[Task 1] ---> CTask3[Task 1] 
+    CProcess[Process] ---> CTask2[Task 2] ---> CTask4[Task 2]

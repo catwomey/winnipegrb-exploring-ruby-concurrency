@@ -1,0 +1,7 @@
+slow_client: Starting
+variable_client: Starting
+fast_client: Starting
+fast_client response after 0.25 seconds
+variable_client response after 0.3709536830644593 seconds
+slow_client response after 3 seconds
+Concurrent 3.0017130259984697 seconds

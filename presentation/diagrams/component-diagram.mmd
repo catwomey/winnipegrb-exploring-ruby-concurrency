@@ -1,0 +1,12 @@
+---
+title: Financial Data Request Flowchart
+---
+flowchart TD
+    User -->|Request Financial Data| Aggregator
+    Aggregator -->|Request Finance Data| Bank_Account
+    Aggregator -->|Request Finance Data| Credit
+    Aggregator -->|Request Finance Data| Lending
+    Bank_Account["Bank Account"] -->|Return Bank Account Data| Aggregator
+    Credit -->|Return Credit Data| Aggregator
+    Lending -->|Return Lending Data| Aggregator
+    Aggregator -->|Return Combined Data| User
